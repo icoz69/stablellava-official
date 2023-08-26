@@ -161,23 +161,32 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-
     <div class="columns is-centered">
       <div class="column is-full-width">
         <!-- Interpolating. -->
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
-            <img src="./static/images/tensor.png"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
+            <div class="center-image">
+              <img src="./static/images/tensor.png"
+                   class="interpolation-image"
+                   alt="Interpolate start reference image."/>
+            </div>
             <p>Start Frame</p>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </section>
+
+<style>
+  .center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed */
+  }
+</style>
 
 
 <section class="section" id="BibTeX">
