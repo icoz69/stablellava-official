@@ -171,7 +171,7 @@
                    class="interpolation-image"
                    alt="Interpolate start reference image." />
                 <figcaption>
-                Examples of synthesized visual instruction data.
+                <strong>Examples of synthesized visual instruction data.</strong>
                 We instruct ChatGPT to generate prompts for the text-to-image generative model,
                 StableDiffusion, and a dialogue regarding the image content.
                 The image-dialogue pairs are used to train the multimodal large language models.
@@ -184,7 +184,55 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+           The remarkable multimodal capabilities demonstrated by OpenAI's GPT-4 have sparked significant interest in the development of multimodal Large Language Models (LLMs). 
+           A primary research objective of such models is to align visual and textual modalities effectively while comprehending human instructions. Current methodologies often 
+            rely on annotations derived from benchmark datasets to construct image-dialogue datasets for training purposes, akin to instruction tuning in LLMs. However,
+            these datasets often exhibit domain bias, potentially constraining the generative capabilities of the models. 
+            In an effort to mitigate these limitations, we propose a novel data collection methodology that synchronously synthesizes images and dialogues for visual instruction tuning. 
+            This approach harnesses the power of generative models, marrying the abilities of ChatGPT and text-to-image generative models to yield a diverse and controllable dataset 
+            with varied image content. This not only provides greater flexibility compared to existing methodologies but also significantly enhances several model capabilities. 
+            Our research includes comprehensive experiments conducted on various datasets using the open-source LLAVA model as a testbed for our proposed pipeline. 
+            Our results underscore marked enhancements across more than ten commonly assessed capabilities.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Qualitative results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Qualitative Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            Demonstrations of our method’s effectiveness across diverse real world image scenarios.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Qualitative results. -->
+
+    <!-- Inserted Image -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <img src="case.png" alt="Case Image">
+      </div>
+    </div>
+  </div>
+</section>
+  
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
@@ -196,8 +244,7 @@
 }</code></pre>
   </div>
 </section>
-
-
+  
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
