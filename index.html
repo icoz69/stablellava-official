@@ -163,7 +163,7 @@
   <div class="container is-max-desktop">
     <!-- Teaser. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column">
+      <div class="column is-four-fifths">
         <div class="content has-text-justified">
             <div class="center-image">
               <figure>
@@ -186,31 +186,6 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-           The remarkable multimodal capabilities demonstrated by OpenAI's GPT-4 have sparked significant interest in the development of multimodal Large Language Models (LLMs). 
-           A primary research objective of such models is to align visual and textual modalities effectively while comprehending human instructions. Current methodologies often 
-            rely on annotations derived from benchmark datasets to construct image-dialogue datasets for training purposes, akin to instruction tuning in LLMs. However,
-            these datasets often exhibit domain bias, potentially constraining the generative capabilities of the models. 
-            In an effort to mitigate these limitations, we propose a novel data collection methodology that synchronously synthesizes images and dialogues for visual instruction tuning. 
-            This approach harnesses the power of generative models, marrying the abilities of ChatGPT and text-to-image generative models to yield a diverse and controllable dataset 
-            with varied image content. This not only provides greater flexibility compared to existing methodologies but also significantly enhances several model capabilities. 
-            Our research includes comprehensive experiments conducted on various datasets using the open-source LLAVA model as a testbed for our proposed pipeline. 
-            Our results underscore marked enhancements across more than ten commonly assessed capabilities.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
     <!-- Qualitative results. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -227,7 +202,31 @@
     <!-- Inserted Image -->
     <div class="columns is-centered has-text-centered">
       <div class="column">
-        <img src="case.png" alt="Case Image">
+        <img src="./static/case.png" alt="Case Image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Qualitative results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results on testing benchmarks for twelve abilities</h2>
+        <div class="content has-text-justified">
+          <p>
+            Left: AI-generated benchmarks. Right: Real-image benchmarks.Percentages indicate correct answers per ability.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Qualitative results. -->
+
+    <!-- Inserted Image -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <img src="./static/quan_results.png" alt="Quan Image">
       </div>
     </div>
   </div>
